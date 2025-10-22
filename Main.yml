@@ -6,13 +6,12 @@
       {
         "name": "my-python-app",
         "image": "<AWS_ACCOUNT_ID>.dkr.ecr.ap-south-1.amazonaws.com/my-python-app:latest",
-        "essential": true,
+        "essential": flase,
         "portMappings": [{ "containerPort": 8000, "protocol": "tcp" }],
       },
     ],
   "requiresCompatibilities": ["FARGATE"]
-  "cpu": "256",
-  "memory": "215",
+  
 
   "cpu": "128",
   "memory": "512",
