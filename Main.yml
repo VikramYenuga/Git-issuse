@@ -6,7 +6,7 @@
       {
         "name": "my-python-app",
         "image": "<AWS_ACCOUNT_ID>.dkr.ecr.ap-south-1.amazonaws.com/my-python-app:latest",
-        "essential": flase,
+        "essential": true,
         "portMappings": [{ "containerPort": 8000, "protocol": "tcp" }],
       },
     ],
