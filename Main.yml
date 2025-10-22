@@ -12,12 +12,21 @@
     ],
   "requiresCompatibilities": ["FARGATE"]
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 
   "cpu": "128",
 =======
   "cpu": "256",
 >>>>>>> d60b75e01b87dae46372f5d6a432627278522c09
+=======
+  "cpu": "256",
+=======
+  
+
+  "cpu": "128",
+>>>>>>> cb2c937 (4th)
+>>>>>>> d06bb70 (4th)
   "memory": "512",
 
   "executionRoleArn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/ecsTaskExecutionRole",
