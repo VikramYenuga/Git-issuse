@@ -10,8 +10,12 @@
         "portMappings": [{ "containerPort": 8000, "protocol": "tcp" }],
       },
     ],
-  "requiresCompatibilities": ["FARGATE"],
+  "requiresCompatibilities": ["FARGATE"]
   "cpu": "256",
   "memory": "215",
+
+  "cpu": "128",
+  "memory": "512",
+
   "executionRoleArn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/ecsTaskExecutionRole",
 }
